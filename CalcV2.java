@@ -23,6 +23,8 @@ public class CalcV2 {
                 double num2 = getLetToNumb();
                 double result = calc(num1, operation, num2);
                 System.out.println(+result);
+            }else if (ch == 'e'){
+                System.out.println("U r welcome :) ");
             }else {
                 System.out.println("Введены неподходящие данные, попробуйте еще раз!!!");
             }
