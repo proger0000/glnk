@@ -42,7 +42,8 @@ public class CalcV2 {
     }
 
     private static char getChoice() {
-        System.out.println("Выберите тип используемых даных: Арабские(а) или Римские(r)");
+        System.out.println("Выберите тип используемых даных: ");
+        System.out.println("Арабские(а) или Римские(r)");
         System.out.println("Выход (е)");
         char ch;
         if (scanner.hasNext()) {
